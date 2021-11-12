@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
     document.getElementById("Content").src="./"+page+".html";
-    setTimeout(() => { document.getElementById("Content").style.display="block"; }, 2000);
+    setTimeout(() => { document.getElementById("Content").style.display="block"; }, 500);
   })
 
 const queryString = window.location.search;
