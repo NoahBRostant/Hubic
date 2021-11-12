@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECEFF4;
+}
+.Sidebar {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    height: auto;
+    width: 300px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #E5E9F0;
+    filter: drop-shadow(0 3px 4px rgba(59, 59, 59, 0.12))drop-shadow(0 3px 3px rgba(59, 59, 59, 0.14))drop-shadow(0 1px 8px rgba(59, 59, 59, 0.12))drop-shadow(0 -2px 2px rgba(59, 59, 59, 0.1));
+}
+
+.SidebarLogo {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.Topbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 340px;
+    top: 20px;
+    right: 20px;
+    width: auto;
+    height: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #E5E9F0;
+    filter: drop-shadow(0 3px 4px rgba(59, 59, 59, 0.12))drop-shadow(0 3px 3px rgba(59, 59, 59, 0.14))drop-shadow(0 1px 8px rgba(59, 59, 59, 0.12))drop-shadow(0 -2px 2px rgba(59, 59, 59, 0.1));
+}
+
+.Title {
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px
+}
+
+#Searchbar {
+    position: absolute;
+    right: 68px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+    width: 0px;
+}
+#Searchbar:hover {
+    transition-duration: 0.5s;
+    width: 180px;
+}
+
+#SearchInput {
+    background-color: #E5E9F0;
+    border-width: 0px;
+    width: 100%;
+    outline: none;
+}
+#SearchInput:focus + #Searchbar {
+    transition-duration: 0.5s;
+    width: 180px;
+}
+
+#Search-Icon {
+    position: absolute;
+    right: 30px;
+}
+#Search-Icon:hover + #Searchbar{
+    transition-duration: 0.5s;
+    width: 180px;
+}
+
+#Git-Icon {
+    position: absolute;
+    right: 30px;
+}
+
+#Content {
+    position: absolute;
+    left: 340px;
+    top: 90px;
+}
