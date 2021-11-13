@@ -8,23 +8,67 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-<body>
-    <div class="Topbar">
+<body id="about">
+    <div id="Topbar">
         <ul class="breadcrumb">
             <li><a href="./skins.html">Skins</a></li>
             <li>Roundify</li>
           </ul>
-        <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         <div id="Searchbar">
             <input id="SearchInput" class="Open" type="text" placeholder="Search...">
+            <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         </div>
     </div>
-    <!-- <section>
-        <h1>This is Page 2</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam mollitia doloremque nesciunt quos architecto cupiditate deserunt ea qui rem repellendus tempore soluta eveniet, distinctio delectus? Ut, maiores culpa? Distinctio architecto quidem harum rem tempore non consequatur eos itaque ab alias doloribus beatae dolorum in, laborum libero, debitis voluptatibus est dolore quo ipsum. Ipsum quis nam, debitis aperiam vero repellendus nisi ipsa laudantium cumque commodi reiciendis, accusantium repudiandae ullam aspernatur? Nisi incidunt labore consequatur numquam alias, ducimus, aspernatur quaerat exercitationem delectus vero ab repudiandae quo laudantium qui odit saepe recusandae molestiae eligendi, voluptatum nihil fugiat hic! Laudantium maiores asperiores sequi quia omnis earum quo magni quae, ullam nesciunt voluptatum dolorem quas veritatis vel dolor accusantium repellat beatae unde dignissimos libero veniam assumenda ex autem? Dolore cum, sequi non asperiores aperiam quis quaerat ad ea eius dolorem assumenda dicta rem officia adipisci consequatur quibusdam consectetur dolorum rerum distinctio tenetur quisquam repellendus fugiat eligendi! Qui ad debitis, minus quam, modi officia distinctio ex molestias dolorem corrupti veritatis dolores pariatur? Est aliquam nihil magni quod, ullam reiciendis. Numquam velit porro sapiente distinctio vel hic eveniet, iusto mollitia id corrupti nihil suscipit veritatis illum nesciunt quas aliquid voluptates natus? Accusantium deserunt eligendi iste quas quia!</p>
-    </section> -->
+    <section id="Text">
+        <img align="center" width="100%" src="https://github.com/NoahBRostant/Roundify/blob/main/images/RoundifyBannerSmallRound.png?raw=true"></img>
+        <p align="center">
+            <a href="https://github.com/noahbrostant/Roundify/releases/latest"><img style="margin-left: 2px; margin-right: 2px;" alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/noahbrostant/Roundify?sort=semver"></a>
+            <a href="https://github.com/noahbrostant/Roundify/releases/latest"><img style="margin-left: 2px; margin-right: 2px;" alt="GitHub all releases" src="https://img.shields.io/github/downloads/noahbrostant/Roundify/total"></a>
+        </p>
+        <h2>What is Roundify?</h2>
+        <p>Roundify is an application/skin built for Rainmeter that allows the user to change the corner radius of their display. Roundify allows for a high level of customizability and we're just getting started with it.
+            Roundify utilizes Rainmeter to create rounded edges to your screen and/or windows. I decided to use Rainmeter as it seemed like a very versatile program to write in and allowed me to very quickly create something out of nothing.
+            This is however my first time programming a Rainmeter program so there was a lot to learn. Rainmeter does have a very strong and helpful community that helped me along the way and I'll give special thanks to them <test class="fas fa-link fa-xs"></test><a href="./roundify.html/#special-thanks">here</a>.</p>
+        <h2>Features</h2>
+        <ul>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Corner Radius.</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Corner Colour.</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Full-screen Corners.</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Settings Button.</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Padding</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Updater</li>
+            <li>- <Linki class="fas fa-link fa-xs"></Linki>Downdater</li>
+        </ul>
+        <h1 id="wiki">Wiki</h1>
+        <p>Here you will find all the information about the Roundify skin and how to correctly and efficiently use it to customize your windows desktop experience.</p>
+        <h2>Settings</h2>
+        <h3>Corner Radius</h3>
+        <h4>Description</h4>
+        <p>The corner radius option within the settings menu allows you to change how round the corners will be.</p>
+        <h4>Input Method</h4>
+        <p>This value is scrub friendly so you can scroll to change the value or you can click on it and manually type in the value you want it to be. Just make sure you press enter or the value will not be changed. press ESC at any point of typing to abort and revert to the value before you clicked to change.</p>
+        <h4>Notes</h4>
+        <p>The Corner Radius value cannot be any hire than 100. should you type in a value higher than this it will automatically change to the highest possible value "100".</p>
+        <h3>Corner Colour</h3>
+        <h4>Description</h4>
+        <p>The corner Colour option within the settings menu allows you to change colour of the corners surrounding windows and the display.</p>
+        <h4>Input Method</h4>
+        <p>This value relies on a different skin. by clicking the external button, a new window will appear called the Colour Picker+ window. from there you can select what colour you want to use either on the colour spectrum graph or using the eye dropper tool. Press ESC at any time to exit the window and revert to the previous colour.</p>
+        <h4>Notes</h4>
+        <p>You must have the Colour Picker+ skin installed in order for the Setting to work. An install button will appear over the setting if it is not found in the skins directory. Just click the install button and it should install and run as normal.</p>
+        
+        <h2 id="special-thanks">Special Thanks</h2>
+        <h3>Skins:</h3>
+        <ul>
+            <li>ColorPicker by jsmorley (Modified by Noah Bradford Rostant)</li>
+        </ul>
+        <h3>Plugins:</h3>
+        <ul>
+            <li>Frosted Glass by theAzack9</li>
+            <li>IsFullScreen by jsmorley</li>
+            <li>CursorColor by jsmorley</li>
+        </ul>
+    </section>
     <script src="./js/script.js"></script>
 </body>
 </html>
-<!-- Create button to open the context menu -->
