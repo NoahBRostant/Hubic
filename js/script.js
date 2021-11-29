@@ -7,7 +7,6 @@ window.addEventListener('load', function () {
   })
 
 const queryString = window.location.search;
-console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 const page = urlParams.get('page')
 const section = urlParams.get('section')
