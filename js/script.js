@@ -8,8 +8,8 @@ window.addEventListener('load', function () {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const page = urlParams.get('page')
-const section = urlParams.get('section')
+const page = urlParams.get('page');
+const section = urlParams.get('section');
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
@@ -18,7 +18,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("Topbar").style.top = "20px";
   } else {
-    document.getElementById("Topbar").style.top = "-60px";
+    document.getElementById("Topbar").style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
 }

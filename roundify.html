@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-<body>
-    <div id="Topbar">
+<body id="background2" class="light-1">
+    <div id="Topbar" class="light-2">
         <ul class="breadcrumb">
             <li><a href="./skins.html">Skins</a></li>
             <li>Roundify</li>
@@ -18,9 +18,13 @@
             <input id="SearchInput" class="Open" type="text" placeholder="Search...">
             <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         </div>
+        <label class="switch">
+            <input id="DarkToggle" name="DarkToggle" type="checkbox" onclick="DarkMode()">
+            <span class="slider round"></span>
+        </label>
     </div>
     <section id="Text">
-        <img align="center" width="100%" src="/img/RoundifyBannerSmallRound.png" alt="Banner"></img>
+        <img align="center" style="border-radius: 20px;" width="100%" src="/img/Roundify/RoundifyBannerSmallRoundv2.png" alt="Banner"></img>
         <p align="center">
             <!-- <a href="https://github.com/noahbrostant/Roundify/releases/latest"><img style="margin-left: 2px; margin-right: 2px;" alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/noahbrostant/Roundify?sort=semver"></a>
             <a href="https://github.com/noahbrostant/Roundify/releases/latest"><img style="margin-left: 2px; margin-right: 2px;" alt="GitHub all releases" src="https://img.shields.io/github/downloads/noahbrostant/Roundify/total"></a> -->
@@ -30,20 +34,25 @@
                 <h2 id="about">What is Roundify?</h2>
                 <p>Roundify is an application/skin built for Rainmeter that allows the user to change the corner radius of their display. Roundify allows for a high level of customizability and we're just getting started with it.
                     Roundify utilizes Rainmeter to create rounded edges to your screen and/or windows. I decided to use Rainmeter as it seemed like a very versatile program to write in and allowed me to very quickly create something out of nothing.
-                    This is however my first time programming a Rainmeter program so there was a lot to learn. Rainmeter does have a very strong and helpful community that helped me along the way and I'll give special thanks to them <test class="fas fa-link fa-xs"></test><a href="./roundify.html/#special-thanks">here</a>.</p>
+                    This is however my first time programming a Rainmeter program so there was a lot to learn. Rainmeter does have a very strong and helpful community that helped me along the way and I'll give special thanks to them <test class="fas fa-link fa-xs"></test><a class="link" href="./roundify.html/#special-thanks">here</a>.</p>
                 <h2>Features</h2>
                 <ul>
-                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a href="#corner-radius">Corner Radius</a>.</li>
-                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a href="#corner-colour">Corner Colour</a>.</li>
+                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a class="link" href="#corner-radius">Corner Radius</a>.</li>
+                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a class="link" href="#corner-colour">Corner Colour</a>.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Full-screen Corners.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Settings Button.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Padding</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Updater</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Downdater</li>
                 </ul>
+                <br>
+                <br>
+                <div class="Line LS-75P LW-SM"></div>
                 <h1 id="wiki">Wiki</h1>
                 <p>Here you will find all the information about the Roundify skin and how to correctly and efficiently use it to customize your windows desktop experience.</p>
+                <div class="Line LS-25P LW-SM"></div>
                 <h2>Settings</h2>
+                <div class="Line LS-25P LW-SM"></div>
                 <h3 id="corner-radius">Corner Radius</h3>
                 <h4>Description</h4>
                 <p>The corner radius option within the settings menu allows you to change how round the corners will be.</p>
@@ -51,6 +60,11 @@
                 <p>This value is scrub friendly so you can scroll to change the value or you can click on it and manually type in the value you want it to be. Just make sure you press enter or the value will not be changed. press ESC at any point of typing to abort and revert to the value before you clicked to change.</p>
                 <h4>Notes</h4>
                 <p>The Corner Radius value cannot be any hire than 100. should you type in a value higher than this it will automatically change to the highest possible value "100".</p>
+                <h4>Gallery</h4>
+                <img src="/img/Roundify/Screenshot 2021-11-29 205321.png" alt="Corner_Radius.png">
+                <br>
+                <br>
+                <div class="Line LS-25P LW-SM"></div>
                 <h3 id="corner-colour">Corner Colour</h3>
                 <h4>Description</h4>
                 <p>The corner Colour option within the settings menu allows you to change colour of the corners surrounding windows and the display.</p>
@@ -58,7 +72,10 @@
                 <p>This value relies on a different skin. by clicking the external button, a new window will appear called the Colour Picker+ window. from there you can select what colour you want to use either on the colour spectrum graph or using the eye dropper tool. Press ESC at any time to exit the window and revert to the previous colour.</p>
                 <h4>Notes</h4>
                 <p>You must have the Colour Picker+ skin installed in order for the Setting to work. An install button will appear over the setting if it is not found in the skins directory. Just click the install button and it should install and run as normal.</p>
-                
+                <img src="/img/Roundify/Screenshot 2021-11-29 220259.png" alt="Corner_Colour.png">
+                <br>
+                <br>
+                <div class="Line LS-75P LW-SM"></div>
                 <h2 id="special-thanks">Special Thanks</h2>
                 <h3>Skins:</h3>
                 <ul>
@@ -71,19 +88,32 @@
                     <li>CursorColor by jsmorley</li>
                 </ul>
             </div>
-            <div id="Info-Context">
+            <div id="Info-Context" class="light-2">
                 <div id="ShieldContainer">
                     <img class="ShieldItem" alt="GitHub all releases" src="https://img.shields.io/github/downloads/NoahBRostant/Roundify-RM/total?color=blue&label=Downloads&style=flat">
                     <img class="ShieldItem" alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/NoahBRostant/Roundify-RM?label=Latest%20Release&sort=semver&style=flat">
                 </div>
+                <img src="/img/Roundify/Screenshot 2021-11-29 171753.png" alt="Roundify_Logo" width="80%" height="auto" style="margin: 10px; margin-left: 28px; border-radius: 20px;">
+                <div class="Line LS-50P LW-SM LA-Center"></div>
+                <h2 style="text-align: center; margin-top: 8px; margin-bottom: 0px; padding-bottom: 0px;">Roundify</h2>
+                <p style="text-align: center; padding-left: 5px; padding-right: 5px;">A Windows 11 Customization app that Rounds the corners of the display and maximised windows.</p>
+                <div class="Line LS-100P LW-SM LA-Center"></div>
+                <h2 id="Info-Context-Title">Content Menu</h2>
                 <ul class="SidebarSubList">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#wiki">Wiki</a></li>
-                    <li><a href="#special-thanks">Special Thanks</a></li>
+                    <li><a class="link" href="#about">About</a></li>
+                    <li><a class="link" href="#installing">Installing</a></li>
+                    <li><a class="link" href="#downloads">Downloads</a></li>
+                    <li><a class="link" href="#wiki">Wiki</a></li>
+                    <li><a class="link" href="#api">Api</a></li>
+                    <li><a class="link" href="#special-thanks">Special Thanks</a></li>
                 </ul>
+                <br>
+                <br>
+                <div class="Line LS-100P LW-SM LA-Center"></div>
             </div>
         </div>
     </section>
     <script src="./js/script.js"></script>
+    <script src="./js/darken.js"></script>
 </body>
 </html>
