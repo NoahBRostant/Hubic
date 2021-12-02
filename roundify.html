@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-<body id="background2" class="light-1">
+<body class="light-1">
     <div id="Topbar" class="light-2">
         <ul class="breadcrumb">
             <li><a href="./skins.html">Skins</a></li>
             <li>Roundify</li>
         </ul>
         <div id="Searchbar">
-            <input id="SearchInput" class="Open" type="text" placeholder="Search...">
+            <input id="SearchInput" class="Open search-light" type="text" placeholder="Search...">
             <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         </div>
         <label class="switch">
-            <input id="DarkToggle" name="DarkToggle" type="checkbox" onclick="DarkMode()">
+            <input id="DarkToggle" class="DarkToggle" type="checkbox" onclick="DarkMode()">
             <span class="slider round"></span>
         </label>
     </div>
-    <section id="Text">
+    <div id="Text">
         <img align="center" style="border-radius: 20px;" width="100%" src="/img/Roundify/RoundifyBannerSmallRoundv2.png" alt="Banner"></img>
         <p align="center">
             <!-- <a href="https://github.com/noahbrostant/Roundify/releases/latest"><img style="margin-left: 2px; margin-right: 2px;" alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/noahbrostant/Roundify?sort=semver"></a>
@@ -34,11 +34,11 @@
                 <h2 id="about">What is Roundify?</h2>
                 <p>Roundify is an application/skin built for Rainmeter that allows the user to change the corner radius of their display. Roundify allows for a high level of customizability and we're just getting started with it.
                     Roundify utilizes Rainmeter to create rounded edges to your screen and/or windows. I decided to use Rainmeter as it seemed like a very versatile program to write in and allowed me to very quickly create something out of nothing.
-                    This is however my first time programming a Rainmeter program so there was a lot to learn. Rainmeter does have a very strong and helpful community that helped me along the way and I'll give special thanks to them <test class="fas fa-link fa-xs"></test><a class="link" href="./roundify.html/#special-thanks">here</a>.</p>
+                    This is however my first time programming a Rainmeter program so there was a lot to learn. Rainmeter does have a very strong and helpful community that helped me along the way and I'll give special thanks to them <test class="fas fa-link fa-xs"></test><a href="./roundify.html/#special-thanks">here</a>.</p>
                 <h2>Features</h2>
                 <ul>
-                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a class="link" href="#corner-radius">Corner Radius</a>.</li>
-                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a class="link" href="#corner-colour">Corner Colour</a>.</li>
+                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a href="#corner-radius">Corner Radius</a>.</li>
+                    <li>- <Linki class="fas fa-link fa-xs"></Linki><a href="#corner-colour">Corner Colour</a>.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Full-screen Corners.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Enable Settings Button.</li>
                     <li>- <Linki class="fas fa-link fa-xs"></Linki>Padding</li>
@@ -76,6 +76,64 @@
                 <br>
                 <br>
                 <div class="Line LS-75P LW-SM"></div>
+                <h2 id="installation">Installation</h2>
+                <h3>Windows</h3>
+                <div class="Line LS-25P LW-SM"></div>
+                <p>In order for this program and/or skin to run, you must have <a href="https://github.com/rainmeter/rainmeter/releases/download/v4.5.6.3573/Rainmeter-4.5.6.exe" target="_blank">Rainmeter</a> installed.</p>
+                <p>Download the version you want to use. (Roundify-RM) refers to the build that only uses Rainmeter to run. This can be slow on lower end PCs.</p>
+                <p>To install, simply run either the '.rm' or '.exe' file depending on your choice of build.</p>
+                <p>After that the program and/or skin should install to your system</p>
+                <h3>Uninstall</h3>
+                <div class="Line LS-25P LW-SM"></div>
+                <p>For both you must go to the rainmeter skins folder 'C:\Users\$USER$\OneDrive\Documents\Rainmeter\Skins' (replace $USER$ with your Windows account name). Once there you will need to locate the Roundify folder and delete it.</p>
+                <p>Alternatively you can uninstall Rainmeter entirely from the system or settings menu.</p>
+                <p>If you are using the '.exe' build you must also uninstall the program. Just ensure there are no shortcuts made of the program and remove it from the programs and downloads folders.</p>
+                <br>
+                <div class="Line LS-75P LW-SM"></div>
+                <h2 id="downloads">Downloads</h2>
+                <p>Disclaimer: This program and/or skin only runs on a Windows system!</p>
+                <h4>Minimum Requirements:</h4>
+                <ul>
+                    <li>OS: Windows 7</li<b></b>
+                    <li>CPU: Intel Core i3 (or AMD equivalent)</li>
+                    <li>Memory: 4GB DDR4</li>
+                    <li>GPU: Integrated GPU</li>
+                    <li>Storage: 2GB HDD</li>
+                </ul>
+                <br>
+                <table id="DownloadsTable" class="table-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Latest Release</th>
+                        <th>Size</th>
+                        <th>Extension</th>
+                        <th>Release Date</th>
+                    </tr>
+                    <tr>
+                        <td>Roundify-RM</td>
+                        <td><a href="https://github.com/NoahBRostant/Roundify-RM/releases/download/v0.13.0/Roundify_0.13.0.rmskin" target="_blank"><down class="fas fa-download"></down> v0.13.0</a></td>
+                        <td>600KB</td>
+                        <td>.rm</td>
+                        <td>28/10/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Roundify-beta</td>
+                        <td><a href="https://github.com/NoahBRostant/Roundify-RM/releases/download/v1.0.0-beta.4/Roundify_1.0.0-beta.4.rmskin" target="_blank"><down class="fas fa-download"></down> v1.0.0-beta.4</a></td>
+                        <td>1.63MB</td>
+                        <td>.rm</td>
+                        <td>17/11/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Roundify</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>.exe</td>
+                        <td>TBD</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <div class="Line LS-75P LW-SM"></div>
                 <h2 id="special-thanks">Special Thanks</h2>
                 <h3>Skins:</h3>
                 <ul>
@@ -89,7 +147,7 @@
                 </ul>
             </div>
             <div id="Info-Context" class="light-2">
-                <div id="ShieldContainer">
+                <div id="ShieldContainer" class="light-3">
                     <img class="ShieldItem" alt="GitHub all releases" src="https://img.shields.io/github/downloads/NoahBRostant/Roundify-RM/total?color=blue&label=Downloads&style=flat">
                     <img class="ShieldItem" alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/NoahBRostant/Roundify-RM?label=Latest%20Release&sort=semver&style=flat">
                 </div>
@@ -100,19 +158,19 @@
                 <div class="Line LS-100P LW-SM LA-Center"></div>
                 <h2 id="Info-Context-Title">Content Menu</h2>
                 <ul class="SidebarSubList">
-                    <li><a class="link" href="#about">About</a></li>
-                    <li><a class="link" href="#installing">Installing</a></li>
-                    <li><a class="link" href="#downloads">Downloads</a></li>
-                    <li><a class="link" href="#wiki">Wiki</a></li>
-                    <li><a class="link" href="#api">Api</a></li>
-                    <li><a class="link" href="#special-thanks">Special Thanks</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#wiki">Wiki</a></li>
+                    <!-- <li><a href="#api">Api</a></li> -->
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                    <li><a href="#special-thanks">Special Thanks</a></li>
                 </ul>
                 <br>
                 <br>
                 <div class="Line LS-100P LW-SM LA-Center"></div>
             </div>
         </div>
-    </section>
+    </div>
     <script src="./js/script.js"></script>
     <script src="./js/darken.js"></script>
 </body>
