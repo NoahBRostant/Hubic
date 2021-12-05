@@ -25,53 +25,64 @@
     background-color: #ECEFF4;
     color: black;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .light-2 {
     background-color: #E5E9F0;
     color: black;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .light-3 {
     background-color: #D8DEE9;
     color: black;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .dark-1 {
     background-color: #2E3440;
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-1 a {
     color: #D8DEE9;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-1 a:Hover {
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-2 {
     background-color: #3B4252;
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-2 a {
     color: #D8DEE9;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-2 a:Hover {
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-3 {
     background-color: #434C5E;
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 .dark-4 {
     background-color: #4C566A;
     color: #E5E9F0;
     transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .table-light {
@@ -232,7 +243,6 @@ h2 {
     border-width: 0px;
     border-radius: 10px;
     filter: drop-shadow(0 3px 4px rgba(59, 59, 59, 0.12))drop-shadow(0 3px 3px rgba(59, 59, 59, 0.14))drop-shadow(0 1px 8px rgba(59, 59, 59, 0.12))drop-shadow(0 -2px 2px rgba(59, 59, 59, 0.1));
-    transition: .3s;
     z-index: 100;
 }
 
@@ -402,7 +412,8 @@ ul.breadcrumb {
     bottom: 0;
     background-color: #2E3440;
     -webkit-transition: .5s;
-    transition: .5s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .slider:before {
@@ -414,6 +425,8 @@ ul.breadcrumb {
     bottom: 5px;
     background-color: #E5E9F0;
     pointer-events: none;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 input:checked + .slider {
@@ -429,6 +442,8 @@ input:checked + .slider:before {
     -ms-transform: translateX(15px);
     transform: translateX(15px);
     background-color: #3B4252;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .slider.round {
@@ -437,4 +452,15 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.normal {
+    filter: invert(0);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+.invert {
+    filter: invert(1);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
