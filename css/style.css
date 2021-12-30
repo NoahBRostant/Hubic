@@ -103,6 +103,10 @@
     color: #E5E9F0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -139,10 +143,18 @@ th {
 a {
     text-decoration: none;
     color: #2E3440;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 a:hover {
     text-decoration: none;
     color: #20242c;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+img {
+    border-radius: 10px;
 }
 
 h1 {
@@ -319,6 +331,7 @@ h2 {
     display: block;
 } */
 
+
 #Info {
     display: flex;
     width: 100%;
@@ -334,6 +347,9 @@ h2 {
     border-width: 0px;
     border-radius: 10px;
     filter: drop-shadow(0 3px 4px rgba(59, 59, 59, 0.12))drop-shadow(0 3px 3px rgba(59, 59, 59, 0.14))drop-shadow(0 1px 8px rgba(59, 59, 59, 0.12))drop-shadow(0 -2px 2px rgba(59, 59, 59, 0.1));
+}
+#Info-Context-Title {
+    
 }
 #ShieldContainer {
     display: flex;

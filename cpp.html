@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-<body>
-    <div id="Topbar">
+<body class="light-1">
+    <div id="Topbar" class="light-2">
         <ul class="breadcrumb">
             <li><a href="./skins.html">Skins</a></li>
             <li>Colour Picker+</li>
         </ul>
-        <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         <div id="Searchbar">
-            <input id="SearchInput" class="Open" type="text" placeholder="Search...">
+            <input id="SearchInput" class="Open search-light" type="text" placeholder="Search...">
+            <h3 id="Search-Icon" class="fas fa-search fa-sm"></h3>
         </div>
+        <label class="switch">
+            <input id="DarkToggle" class="DarkToggle" type="checkbox" onclick="DarkMode()">
+            <span class="slider round"></span>
+        </label>
     </div>
         <section>
         </section>
     <script src="./js/script.js"></script>
+    <script src="./js/darken.js"></script>
 </body>
 </html>
 <!-- Create button to open the context menu -->
